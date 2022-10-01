@@ -1,0 +1,12 @@
+DATA Employee_Info;
+input Emp_ID Emp_Name$ Emp_Vertical$;
+datalines;
+101 Mak SQL
+102 Rama SAS
+103 Priya Java
+104 Karthik Excel
+105 Mandeep SAS
+;
+Run;
+PROC PRINT DATA=Employee_Info;
+Run;
